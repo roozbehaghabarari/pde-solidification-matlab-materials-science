@@ -4,7 +4,7 @@ This repository contains a MATLAB implementation of a numerical model to simulat
 
 ## Overview
 
-The objective of this project is to study the thermal behavior and solidification dynamics of a steel ingot using a 2D PDE-based approach. The simulation incorporates thermophysical properties, boundary and initial conditions, and a fixed mold temperature to replicate realistic cooling scenarios. The outputs include temperature distributions, isotherms, and solid fraction evolution over time at specific locations within the ingot.
+The objective of this project is to study the thermal behavior and solidification dynamics of a steel ingot using a 2D PDE-based approach. The simulation incorporates thermophysical properties, boundary and initial conditions, and a fixed mold temperature to replicate realistic cooling scenarios. The outputs include temperature distributions, isotherms, and solidification fraction evolution over time at specific locations within the ingot.
 The simulation is fully implemented in MATLAB using a single, well-structured script.
 
 ## Repository Structure
@@ -13,7 +13,7 @@ The simulation is fully implemented in MATLAB using a single, well-structured sc
     pde-matlab-outputs/     → Output figures, plots, and temperature data  
     DOCUMENT.pdf            → Detailed report explaining the methodology, equations, and results  
 
-The MATLAB script in the pde-matlab-code/ folder is extensively commented and follows the mathematical formulation of the model. The pde-matlab-outputs/ folder contains visual outputs such as isotherm plots and graphs of solid fraction over time.
+The MATLAB script in the pde-matlab-code/ folder is extensively commented and follows the mathematical formulation of the model. The pde-matlab-outputs/ folder contains visual outputs such as isotherm plots and graphs of solidification fraction over time.
 
 ## Physical and Numerical Model
 
@@ -37,17 +37,17 @@ The MATLAB script in the pde-matlab-code/ folder is extensively commented and fo
 
     Time step selected based on the Fourier number (0.1) to ensure stability (theoretical limit: 0.375)
 
-    Evaluation of temperature and solid fraction at:
+    Evaluation of temperature and solidification fraction at:
 
-        x=y=0.1905 mx=y=0.1905m (center of the ingot quarter)
+        x = y = 0.1905 m (center of the ingot quarter)
 
-        x=y=0.381 mx=y=0.381m (center of the ingot)
+        x = y = 0.381 m (center of the ingot)
 
     Visualization of isotherms and solidification fronts over time
 
 ## Documentation
 
-The repository includes a comprehensive report (DOCUMENT.pdf) that provides an in-depth explanation of the PDE model's mathematical formulation, the numerical method employed, and the stability considerations for the explicit finite difference scheme used in the simulation. It also details the simulation parameters, such as the initial and boundary conditions, thermophysical properties, and grid setup, while discussing the assumptions made during model development. Furthermore, the report includes a thorough analysis and interpretation of the results, covering the temperature evolution, isotherms, and solid fraction over time at key locations within the steel ingot. This documentation serves as both a technical guide and a detailed explanation of the methodology and findings of the simulation.
+The repository includes a comprehensive report (DOCUMENT.pdf) that provides an in-depth explanation of the PDE model's mathematical formulation, the numerical method employed, and the stability considerations for the explicit finite difference scheme used in the simulation. It also details the simulation parameters, such as the initial and boundary conditions, thermophysical properties, and grid setup, while discussing the assumptions made during model development. Furthermore, the report includes a thorough analysis and interpretation of the results, covering the temperature evolution, isotherms, and solidification fraction over time at key locations within the steel ingot. This documentation serves as both a technical guide and a detailed explanation of the methodology and findings of the simulation.
 
 ## Author
 
