@@ -7,7 +7,7 @@ This repository contains a MATLAB implementation of a numerical model to simulat
 The objective of this project is to study the thermal behavior and solidification dynamics of a steel ingot using a 2D PDE-based approach. The simulation incorporates thermophysical properties, boundary and initial conditions, and a fixed mold temperature to replicate realistic cooling scenarios. The outputs include temperature distributions, isotherms, and solidification fraction evolution over time at specific locations within the ingot.
 The simulation is fully implemented in MATLAB using a single, well-structured script.
 
-## Repository Structure
+## Contents
 
     pde-matlab-code/        → MATLAB script implementing the PDE-based simulation  
     pde-matlab-outputs/     → Output figures, plots, and temperature data  
