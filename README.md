@@ -51,7 +51,7 @@ The repository includes a comprehensive report (DOCUMENT.pdf) that provides an i
 
 ## Author
 
-This project was developed by Roozbeh Aghabarari during Spring 2024.
+This project was developed by Roozbeh Aghabarari during Spring 2025.
 
 ## Acknowledgements
 
