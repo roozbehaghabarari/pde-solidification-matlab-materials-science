@@ -1,6 +1,6 @@
 # pde-solidification-matlab-materials-science
 
-This repository contains a MATLAB implementation of a numerical model to simulate heat transfer and isothermal solidification in a steel ingot using partial differential equations (PDEs). The model applies an explicit finite difference scheme to solve the transient heat conduction equation with phase change.
+This repository contains a MATLAB implementation of a numerical model to simulate heat transfer and solidification in a steel ingot using partial differential equations (PDEs). The model applies an explicit finite difference scheme to solve the transient heat conduction equation with phase change.
 
 ## Overview
 
@@ -9,9 +9,9 @@ The simulation is fully implemented in MATLAB using a single, well-structured sc
 
 ## Repository Structure
 
-pde-matlab-code/        → MATLAB script implementing the PDE-based simulation  
-pde-matlab-outputs/     → Output figures, plots, and temperature data  
-DOCUMENT.pdf            → Detailed report explaining the methodology, equations, and results  
+    pde-matlab-code/        → MATLAB script implementing the PDE-based simulation  
+    pde-matlab-outputs/     → Output figures, plots, and temperature data  
+    DOCUMENT.pdf            → Detailed report explaining the methodology, equations, and results  
 
 The MATLAB script in the pde-matlab-code/ folder is extensively commented and follows the mathematical formulation of the model. The pde-matlab-outputs/ folder contains visual outputs such as isotherm plots and graphs of solid fraction over time.
 
@@ -39,23 +39,15 @@ The MATLAB script in the pde-matlab-code/ folder is extensively commented and fo
 
     Evaluation of temperature and solid fraction at:
 
-        x = y = 0.1905 m (center of the ingot quarter)
+        x=y=0.1905 mx=y=0.1905m (center of the ingot quarter)
 
-        x = y = 0.381 m (center of the ingot)
+        x=y=0.381 mx=y=0.381m (center of the ingot)
 
     Visualization of isotherms and solidification fronts over time
 
 ## Documentation
 
-A comprehensive report (DOCUMENT.pdf) is included, detailing:
-
-    Mathematical formulation of the PDE model
-
-    Numerical method and stability considerations
-
-    Simulation parameters and assumptions
-
-    Analysis and interpretation of results
+The repository includes a comprehensive report (DOCUMENT.pdf) that provides an in-depth explanation of the PDE model's mathematical formulation, the numerical method employed, and the stability considerations for the explicit finite difference scheme used in the simulation. It also details the simulation parameters, such as the initial and boundary conditions, thermophysical properties, and grid setup, while discussing the assumptions made during model development. Furthermore, the report includes a thorough analysis and interpretation of the results, covering the temperature evolution, isotherms, and solid fraction over time at key locations within the steel ingot. This documentation serves as both a technical guide and a detailed explanation of the methodology and findings of the simulation.
 
 ## Author
 
@@ -73,4 +65,4 @@ The thermophysical data and modeling methods are based on established materials 
 
 ## License
 
-This repository is intended for academic and educational use. Please cite the author if you use or adapt this work.
+This repository is intended for academic and educational purposes. Please credit the author if you refer to or reuse this work in your own projects.
